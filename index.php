@@ -33,7 +33,7 @@ Prettige dag.
         <input type="radio" id="geel" name="kleur" value="geel">
         <label for="geel">Geel</label><br>
         <label>Naam<span class="req">*</span> <input type="text" name="naam" placeholder="Naam" required></label>
-        <label>Telefoonnummer<span class="req">*</span> <input type="tel" name="phone" placeholder="Phone Number" required></label>
+        <label>Telefoonnummer<span class="req">*</span> <input type="tel" name="phone" placeholder="Telefoonnummer" required></label>
         <label>E-mailadres<span class="req">*</span> <input type="email" name="mail" placeholder="Email Address" required></label>
         <label>Favoriete kleur <input type="text" name="Favoriete kleur" placeholder="Favoriete kleur"></label>
     </fieldset>

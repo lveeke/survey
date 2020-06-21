@@ -53,3 +53,8 @@ Let op: 'name' moet hier voor alle antwoorden wel weer uniek zijn (anders wordt 
   <label for="OPTIE_B"> NAAM_OPTIE_B</label><br>
   <input type="checkbox" id="OPTIE_C" name="OPTIE_C" value="VALUE_C">
   <label for="OPTIE_C"> NAAM_OPTIE_C</label><br>
+
+/* maximize length for input
+Dit is simpel met maxlength="HOEVEELHEID_TEKENS". Voorbeeld:*/
+<label>Je moeder<input type="text" name="Je moeder" maxlength="10" placeholder="Je moeder"></label>
+      

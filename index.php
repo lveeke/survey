@@ -19,7 +19,7 @@ if('POST' === $_SERVER['REQUEST_METHOD']):
 Prettige dag.
 </p>
 <?php else: ?>
-<h1>Vragenlijst Linde</h1>
+<h1>Vragenlijst hormonale klachten</h1>
 <p>
     In deze vragenlijst wordt... Velden met een <span class="req">*</span> zijn verplicht.
 </p>

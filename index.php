@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en-US" dir="ltr">
@@ -12,18 +13,37 @@
 <?php
 if('POST' === $_SERVER['REQUEST_METHOD']):
     $mailText = var_export($_POST, true);
-    mail('mail@lindeveeke.nl', 'Form Response', $mailText, 'Content-Type: text/plain; charset=utf-8');
+    mail('mail@nozel.org', 'Form Response', $mailText, 'Content-Type: text/plain; charset=utf-8');
 ?>
 <h1>De vragenlijst is ingevuld!</h1>
 <p>
 Prettige dag.
 </p>
 <?php else: ?>
-<h1>Vragenlijst x</h1>
-<p>In deze vragenlijst wordt... Velden met een <span class="req">*</span> zijn verplicht.</p>
+<h1>Vragenlijst Linde</h1>
+<p>
+    In deze vragenlijst wordt... Velden met een <span class="req">*</span> zijn verplicht.
+</p>
+<h2>Anamnese</h2>
 <form method="post">
+    <label>Redenen voor het consult (in volgorde van belangrijkheid):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
+    <label>Doel van het consult (wat wilt u bereiken?):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
+
     <fieldset>
-        /* hier kun je beginnen met de vragenlijst */   
+        <label>Kleur</label><br>
+        <input type="radio" id="blauw" name="kleur" value="blauw">
+        <label for="blauw">Blauw</label><br>
+        <input type="radio" id="rood" name="kleur" value="rood">
+        <label for="rood">Rood</label><br>
+        <input type="radio" id="geel" name="kleur" value="geel">
+        <label for="geel">Geel</label><br>
+        <label>Naam<span class="req">*</span> <input type="text" name="naam" placeholder="Naam" required></label>
+        <label>Telefoonnummer<span class="req">*</span> <input type="tel" name="phone" placeholder="Telefoonnummer" required></label>
+        <label>E-mailadres<span class="req">*</span> <input type="email" name="mail" placeholder="Email Address" required></label>
+        <label>Favoriete kleur <input type="text" name="Favoriete kleur" placeholder="Favoriete kleur"></label>
+    </fieldset>
+    <fieldset>
+        <label><input type="checkbox" name="keep_me_informed"> Keep me informed!</label>
     </fieldset>
     <fieldset>
         <button type="submit">Verstuur</button>

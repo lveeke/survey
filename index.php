@@ -26,9 +26,11 @@ Prettige dag.
 </p>
 <h2>Anamnese</h2>
 <form method="post">
-    <label>Redenen voor het consult (in volgorde van belangrijkheid):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
-    <label>Doel van het consult (wat wilt u bereiken?):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
-
+    <fieldset>
+        <label>Redenen voor het consult (in volgorde van belangrijkheid):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
+        <label>Doel van het consult (wat wilt u bereiken?):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
+    </fieldset>
+</form>
     <fieldset>
         <label>Kleur</label><br>
         <input type="radio" id="blauw" name="kleur" value="blauw">

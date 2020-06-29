@@ -38,8 +38,8 @@ Prettige dag.
         <label>Telefoonnummer<span class="req">*</span> <input type="tel" name="phone" placeholder="Telefoonnummer" required></label>
         <label>E-mailadres<span class="req">*</span> <input type="email" name="mail" placeholder="Email Address" required></label>
         <label>Favoriete kleur <input type="text" name="Favoriete kleur" placeholder="Favoriete kleur"></label>
-        <label>Redenen voor het consult (in volgorde van belangrijkheid):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
-        <label>Doel van het consult (wat wilt u bereiken?):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
+        /*<label>Redenen voor het consult (in volgorde van belangrijkheid):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>
+        <label>Doel van het consult (wat wilt u bereiken?):<textarea id="TEXTAREA_ID" name="UNIEKE_NAAM" placeholder="PLACEHOLDER"></label>*/
         <p>Andere artsen of therapeuten waar u onder behandeling bent</P>
             <label>1. <input type="text" name="UNIEKE_NAAM" placeholder="naam"></label>
             <label>2. <input type="text" name="UNIEKE_NAAM" placeholder="praktijk"></label>

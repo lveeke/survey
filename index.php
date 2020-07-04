@@ -75,32 +75,20 @@ Prettige dag.
             <label>3. <input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <label>   <input type="text" name="UNIEKE_NAAM" placeholder="periode"></label>
         <p>Specifieke gegevens</p>
-            <p>lengte:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>lengte:<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <p>cm</p>
-            <p>gewicht:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>gewicht<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <p>kg</p>
-            <p>gewichtsverandering in de laatste 5 jaar?:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
-            <p>cm</p>
-            <p>Hebt u ondergewicht?:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
-            <p>cm</p>
-            <p>Hebt u overgewicht?:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
-            <p>cm</p>
-            <p>leeftijd van uw eerste menstruatie:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>gewichtsverandering in de laatste 5 jaar?<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>Hebt u ondergewicht?<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>Hebt u overgewicht?<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>leeftijd van uw eerste menstruatie:<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <p>jaar</p>
-            <p>menstrueert u nog?:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>menstrueert u nog?<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <p>cm</p>
-            <p>zo nee, leeftijd van uw laatste menstruatie:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>zo nee, leeftijd van uw laatste menstruatie<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <p>jaar</p>
-            <p>zo ja, hoe is uw huidige menstruatiepatroon?:</p>
-            <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
+            <label>zo ja, hoe is uw huidige menstruatiepatroon?<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
             <p>cm</p>
             <p>heeft u PMS klachten, of gehad?:</p>
             <label>NAAM_BOVEN_INVOERVELD<input type="text" name="UNIEKE_NAAM" placeholder="vul in"></label>
